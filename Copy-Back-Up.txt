@@ -1,0 +1,83 @@
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <main className="">
+{/* //////////////////// */}
+      {/* Navbar Start*/}
+{/* //////////////////// */}
+
+    <nav className="bg-[#f7482e]">
+      {/* Upper Nav Start */}
+      <div>
+        <div>Hey</div>
+        <div></div>
+      </div>
+      {/* Upper Nav End */}
+
+      {/* Middle Nav Start */}
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      {/* Middle Nav End */}
+
+      {/* Lower Nav Start */}
+      <div></div>
+      {/* Lower Nav End */}
+    </nav>
+
+{/* //////////////////// */}
+      {/* Navbar End*/}
+{/* //////////////////// */}
+    </main>
+  );
+}
+
+
+// flex min-h-screen flex-col items-center justify-between p-24
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+"use client"
+import { useState } from "react"
+
+const Home: React.FC = () => {
+  const [isOpen, setIsOpen] = useState<boolean>(false)
+  return (
+    <>
+    <div>
+      {/* //////////////////// */}
+      {/* Navbar Start*/}
+{/* //////////////////// */}
+
+    <nav className="bg-[#f7482e]">
+      {/* Upper Nav Start */}
+      <div>
+        <div>Hey</div>
+        <div></div>
+      </div>
+      {/* Upper Nav End */}
+
+      {/* Middle Nav Start */}
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      {/* Middle Nav End */}
+
+      {/* Lower Nav Start */}
+      <div></div>
+      {/* Lower Nav End */}
+    </nav>
+
+{/* //////////////////// */}
+      {/* Navbar End*/}
+{/* //////////////////// */}
+    </div>
+    </>
+  )
+}
+export default Home
